@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1731215155
+::res://::1731215336
 icon.svg::CompressedTexture2D::1324683649633075333::1731078448::1731215155::1::::<><>::
 ::res://Counter/::1731214190
 Counter.gd::GDScript::-1::1731202917::0::1::::<>PanelContainer<>::
@@ -19,8 +19,8 @@ Level.gd::GDScript::-1::1731205203::0::1::::<>Node<>::
 Points.gd::GDScript::-1::1731202966::0::1::::<>Node2D<>::
 Points.tscn::PackedScene::1940091376987837323::1731214190::0::1::::<><>::res://Points/Points.gd
 ::res://Snake/::1731167629
-::res://UserInterface/::1731214190
-UserInterface.tscn::PackedScene::7424087244046071650::1731214190::0::1::::<><>::uid://cyhukmk261lvj::::res://Grid/Grid.tscn<>uid://bidsxlq5mmpnq::::res://Counter/Scoreboard/Scoreboard.tscn<>uid://2v2ay5e081al::::res://Points/Points.tscn
+::res://UserInterface/::1731215158
+UserInterface.tscn::PackedScene::7424087244046071650::1731215158::0::1::::<><>::uid://cyhukmk261lvj::::res://Grid/Grid.tscn<>uid://bidsxlq5mmpnq::::res://Counter/Scoreboard/Scoreboard.tscn<>uid://2v2ay5e081al::::res://Points/Points.tscn
 ::res://VerifyTunnel/::1731214190
 VerifyTunnel.gd::GDScript::-1::1731203783::0::1::::<>Control<>::
 VerifyTunnel.tscn::PackedScene::9046168194920942211::1731214190::0::1::::<><>::res://VerifyTunnel/VerifyTunnel.gd

@@ -10,10 +10,10 @@ const five_word_list : Array = ["AALII", "AARGH", "AARTI", "ABACA", "ABACI", "AB
 var word_list : Array = [one_word_list, two_word_list, three_word_list, four_word_list, five_word_list]
 
 func _verify_word(my_word):
-	var index : int = clamp(my_word.length() - 1, 0, 3) # Start at 0 index 
+	var index : int = clamp(my_word.length() - 1, 0, 4) # Start at 0 index 
 	var found_word_index = word_list[index].bsearch(my_word.to_upper(), false)
 	var found_word = word_list[index][found_word_index - 1] == my_word.to_upper()
-	print(my_word + "| Real word: " + str(found_word))
+	print(my_word + " | Real word: " + str(found_word))
 	return found_word
 
 func _ready() -> void:
@@ -23,4 +23,6 @@ func _ready() -> void:
 	_verify_word("cat")
 	_verify_word("word")
 	_verify_word("found")
+	_verify_word("hound")
+	_verify_word("house")
 	_verify_word("xjsu")
